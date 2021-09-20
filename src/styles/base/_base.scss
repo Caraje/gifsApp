@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-family: sans-serif;
+    background-color: $light-grey;
+}
+
+h1{
+    text-align: center;
+    color: $dark;
+    text-transform:uppercase;
+}
+
+h2 {
+    color: $dark;
+    text-transform:uppercase;
+    padding: 0.5em;
+    border-bottom: 3px solid #eee;
+    & ::before{
+        content: 'wewew';
+        display: block;
+        border-bottom: 5px solid $pink;
+        background-color: purple;
+    }
+}
+
+h2::after{
+    content: '';
+    display: block;
+    border-bottom: 5px solid $pink;
+    background-color: purple;
+}
+
+a{
+    text-decoration: none;
+    color: $light-grey;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    justify-content: center;
+
+}

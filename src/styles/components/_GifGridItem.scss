@@ -1,0 +1,21 @@
+.gif-card {
+    background-color: #eee;
+    width: 10em;
+    height: 10em;
+
+    margin: .2em;
+    overflow: hidden;
+    line-height: 0;
+
+
+}
+
+.gif-card__img{
+    /* height: 75%; */
+    border: 1px solid $pink;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+    padding: 0;
+}

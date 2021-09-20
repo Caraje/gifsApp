@@ -1,0 +1,10 @@
+// Este archivo tiene las configurariones globales de la aplicacion.
+@import './base/settings';
+@import './base/base';
+
+@import './base/normalize';
+
+@import './components/GifApp';
+@import './components/GifGridItem';
+@import './components/AddCategory';
+@import './components/GifGrid'
